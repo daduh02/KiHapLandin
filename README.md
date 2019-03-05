@@ -39,6 +39,13 @@ This will compile files in the dist folder.
 ```
 npm run build
 ```
+
+## Deploying to GitHub
+To deploy the build to github pages, follow these steps:
+ - `cp docs/CNAME dist/CNAME`
+ - `rm -rf docs`
+ - `mv dist docs`
+
 ## Interesting links
 
 * [Webpack 2 Basics Tutorial](https://www.youtube.com/watch?v=HNRt0lODCQM) - by [mschwarzmueller](https://github.com/mschwarzmueller)
