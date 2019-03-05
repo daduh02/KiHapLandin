@@ -1,0 +1,18 @@
+$header-font: 'Courgette' !default;
+$body-font: 'Open+Sans' !default;
+
+@import url('https://fonts.googleapis.com/css?family=#{$header-font}|#{body-font}');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font, cursive;
+}
+
+p,
+a {
+    font-family: $body-font, sans-serif;
+}
