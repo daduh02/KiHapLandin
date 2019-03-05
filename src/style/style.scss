@@ -3,9 +3,10 @@ $header-profile-picture-width: 260px;
 .site-text-h1 {
 	font-size: 26px;
 	width: 100%;
-
 	@include media-breakpoint-up(md) {
 		font-size: 18px;
+		text-align: center;
+		font-family: "Open+Sans", sans-serif;
 	}
 }
 
@@ -53,6 +54,7 @@ $header-profile-picture-width: 260px;
 
 .cmp-profile-header {
 	text-align: left;
+	margin-bottom: 1rem;
 	@extend .d-flex;
 	@extend .justify-content-center;
 	@extend .align-self-center;
