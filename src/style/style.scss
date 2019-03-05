@@ -1,4 +1,4 @@
-$header-profile-picture-width: 78px;
+$header-profile-picture-width: 260px;
 
 .site-text-h1 {
 	font-size: 26px;
@@ -61,7 +61,6 @@ $header-profile-picture-width: 78px;
 	.profile-picture {
 		width: $header-profile-picture-width;
 		height: $header-profile-picture-width;
-		border-radius: $header-profile-picture-width/2;
 		background-color: rgba(white, 0.9);
 		margin: 0 auto 24px;
 	}
